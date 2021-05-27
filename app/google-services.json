@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "58716995871",
+    "project_id": "trip-reminder-e7dcb",
+    "storage_bucket": "trip-reminder-e7dcb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:58716995871:android:362d34bab922fdbf83702a",
+        "android_client_info": {
+          "package_name": "com.example.tripreminder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "58716995871-fsakpq6c4su4iv3fc6hqg84eh7ppcksl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCemiyfBSeVa1LlqVw5nvvyHqQX7oBNfG0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "58716995871-fsakpq6c4su4iv3fc6hqg84eh7ppcksl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

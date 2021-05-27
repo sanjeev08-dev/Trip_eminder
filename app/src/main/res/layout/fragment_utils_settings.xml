@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.UtilsSettingsFragment"
+    android:background="@drawable/splash_screen_background">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_margin="50dp">
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="For batter app working, please disable battery optimization for Trip Reminder"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+            android:gravity="center"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/disableBOButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/success_bg"
+            android:text="Disable Battery Optimization"
+            android:textAllCaps="false"
+            android:paddingHorizontal="10dp"/>
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:text="For best location service please enable Google Accuracy Location"
+            android:textColor="@color/white"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+            android:gravity="center"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/enableGALButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/success_bg"
+            android:text="Turn on Google Accuracy Location"
+            android:textAllCaps="false"
+            android:paddingHorizontal="10dp"/>
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/success_bg"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:text="Start"
+        android:visibility="gone"
+        android:textAllCaps="false"
+        android:drawableStart="@drawable/ic_baseline_navigate_next_24"
+        android:paddingHorizontal="10dp"/>
+</RelativeLayout>
