@@ -62,7 +62,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     private GeofencingClient geofencingClient;
     private TripViewModel viewModel;
     private static final int ACCESS_FINE_LOCATION_REQUEST_CODE = 106;
-    private final float RADIUS = 1000;
+    private final float RADIUS = 500;
     private GeofenceHelper geofenceHelper;
     private Intent intent;
     private final int ACCESS_BACKGROUND_LOCATION_REQUEST_CODE = 107;
